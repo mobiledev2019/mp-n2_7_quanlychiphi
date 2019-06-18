@@ -25,8 +25,25 @@ Một ứng dụng Android được phát triển để giúp kiểm soát chi p
  <br>
  
  Nội Dung:
+I. Thiết kế giao diện:
+
+- Có 3 phần 
+
+ 1. Giao diện hiện thị các chi phí đã dùng theo dạng list
  
-1. Mục tiêu các chức năng: 
+ 2. - Giao diện hiển thị chi phí theo tháng với phần mô tả chi tiết chi phí thuộc danh mục nào, có hình ảnh mô tả
+ 
+    - Có thể xóa mục chi phí nếu muốn
+    
+    - Có 1 nút FAB 
+  
+ 3. Giao diện dữ liệu chi phí được thống kê bằng biểu đồ tròn với thông tin chi tiết các mục đi kèm được hiện thị % mỗi loại.
+ 
+ 4. Có 1 nút nhập các chi phí của người dùng 
+ 
+II. Mô tả ứng dụng: 
+
+1. Chức năng:
 
  - Dữ liệu được hiển thị trên bảng, có thể được lọc theo tháng.  
 
@@ -40,24 +57,32 @@ Một ứng dụng Android được phát triển để giúp kiểm soát chi p
  
  - Luôn có hình ảnh đẹp và trực quan giúp ứng dụng sử dụng dễ dàng.
  
- Quá trình thực hiện:
+ II. Phân công công việc nhómn:
  
- 2. Phân công công việc nhóm:
+2. Phân công công việc nhóm:
  
-+ Họ và tên: Hà Mạnh Thu  - B15DCAT161 : 
-- Thiết kế các giao diện 
-- Thống kê dữ liệu bằng biểu đồ
-- Thông báo cho người dùng cập nhập dữ liệu mỗi ngày
-- Xử lý dữ liệu, API 
-- Xử lý hiển thị dữ liệu
-- Xây dựng nút FAB trên màn hình chính
+ 2.1. Họ và tên: Hà Mạnh Thu  - B15DCAT161  
+ 
+   - Thiết kế các giao diện 
+   - Thống kê dữ liệu bằng biểu đồ theo mục
+   - Thông báo cho người dùng cập nhập dữ liệu mỗi ngày
+   - Xử lý dữ liệu, API 
+   - Xử lý hiển thị dữ liệu
+   - Xây dựng nút FAB trên màn hình chính
 
-+ Họ và tên: Vũ Thành Trung - B15DCAT133 : 
-- Thiết kế các giao diện 
+ 2.2. Họ và tên: Vũ Thành Trung - B15DCAT133  
+   - Thiết kế các giao diện 
 
-+ Họ và tên: Nguyễn Trọng Quản - B15DCAT177 : 
-- Thiết kế các giao diện 
-
+ 2.3. Họ và tên: Nguyễn Trọng Quản - B15DCAT177 
+   - Thiết kế các giao diện 
+   
+3. Hạn chế
+ - Chưa hoàn thành phần đọc tin nhắn khi mở ứng dụng và khuyến nghị người dùng thêm 1 khoảng thu hoặc chi gì đó không :( 
+ 
+ 
+____________________________________________________________________________________________________________________________________
+ 
+ Tham khảo:
  
  
  ## Libraries used
