@@ -13,6 +13,7 @@ BÁO CÁO BÀI TẬP LỚN
 MÔN PHÁT TRIỂN ỨNG DỤNG CHO CÁC THIẾT BỊ DI ĐỘNG 
 
 Nhóm: 02 _ 07: 3 Thành viên
+
 Họ và tên: Hà Mạnh Thu  - B15DCAT161
 Họ và tên: Vũ Thành Trung - B15DCAT133
 Họ và tên: Nguyễn Trọng Quản - B15DCAT177
