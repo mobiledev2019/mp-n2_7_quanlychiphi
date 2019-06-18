@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_data">CHANGE DATA</string>
+    <string name="graphs">Biểu đồ</string>
+    <string name="month">Month:</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="submit">Đăng Nhập</string>
+    <string name="create_user">Đăng Kí</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="overview">Tổng Quan</string>
+    <string name="details">Chi Tiết</string>
+    <string name="graph">Biểu Đồ</string>
+    <string name="add_new_expense">Thêm Chi Phí Mới</string>
+    <string name="please_input_amount_using_canadian_dollars_cad">PLEASE INPUT AMOUNT USING CANADIAN DOLLARS (CAD)</string>
+    <string name="description">Mô tả</string>
+    <string name="category">Thể Loại:</string>
+
+</resources>

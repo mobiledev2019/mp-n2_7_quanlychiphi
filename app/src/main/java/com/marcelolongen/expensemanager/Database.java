@@ -1,0 +1,64 @@
+package com.marcelolongen.expensemanager;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+
+public class Database {
+    private ArrayList<Item> itemObjects;
+
+    public Database() {
+        itemObjects = new ArrayList<>();
+    }
+
+    private static Database db;
+
+    public ArrayList<Item> getItemObjects() {
+        return itemObjects;
+    }
+
+
+
+    public static Database getInstance(){
+        if (db == null){ //nếu null ... tạo mới
+           db = new Database();
+        }
+
+        return db;
+    }
+    private DatabaseReference root;
+    private DatabaseReference user;
+
+    public void readContentsFromFile(String userName) {
+
+        root = FirebaseDatabase.getInstance().getReference();
+        user = root.child("users").child(userName).child("Expenses");
+
+
+        user.addValueEventListener(new ValueEventListener() {
+
+            @Override
+            public void onDataChange(DataSnapshot
+                                             dataSnapshot) {
+                itemObjects.clear();
+
+                for (DataSnapshot artistSnapshot: dataSnapshot.getChildren()) {
+                    Item item = artistSnapshot.getValue(Item.class); // {id: .., name: ..., genre: ...)
+                    itemObjects.add(0, item); //thêm từ db vào arr
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+
+    }
+
+}
