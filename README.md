@@ -73,10 +73,11 @@ II. Mô tả ứng dụng:
 
  2.2. Họ và tên: Vũ Thành Trung - B15DCAT133  
    - Thiết kế các giao diện 
+   - Support tìm hiểu các yêu cầu của thầy
 
  2.3. Họ và tên: Nguyễn Trọng Quản - B15DCAT177 
    - Thiết kế các giao diện 
-   
+   - Support tìm hiểu các yêu cầu thầy
 3. Hạn chế
  - Chưa hoàn thành phần đọc tin nhắn khi mở ứng dụng và khuyến nghị người dùng thêm 1 khoảng thu hoặc chi gì đó không :( 
  
